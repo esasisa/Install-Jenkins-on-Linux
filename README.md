@@ -6,13 +6,13 @@ Steps to Install Jenkins on Linux
                 export http_proxy="<Proxy_Host>"
                 export https_proxy="<Proxy_Host>"
 
-2- Add source in repository
-        wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
-        echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list
+        2- Add source in repository
+                wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+                echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list
   
-3- Install Jenkins
-        apt-get update
-        apt-get install jenkins
+        3- Install Jenkins
+                apt-get update
+                apt-get install jenkins
     
 4- Log Location
         /var/log/jenkins/jenkins.log

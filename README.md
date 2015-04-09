@@ -1,10 +1,10 @@
 # Install-Jenkins-on-Linux
 Steps to Install Jenkins on Linux
 
-1- Set the Proxy
-        export ftp_proxy="<Proxy_Host>"
-        export http_proxy="<Proxy_Host>"
-        export https_proxy="<Proxy_Host>"
+        1- Set the Proxy
+                export ftp_proxy="<Proxy_Host>"
+                export http_proxy="<Proxy_Host>"
+                export https_proxy="<Proxy_Host>"
 
 2- Add source in repository
         wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -

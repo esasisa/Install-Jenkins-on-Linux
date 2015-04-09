@@ -14,29 +14,29 @@ Steps to Install Jenkins on Linux
                 apt-get update
                 apt-get install jenkins
     
-4- Log Location
-        /var/log/jenkins/jenkins.log
+        4- Log Location
+                /var/log/jenkins/jenkins.log
     
-5- Install Java
-        Add repository
-            add-apt-repository ppa:webupd8team/java
+        5- Install Java
+                Add repository
+                        add-apt-repository ppa:webupd8team/java
     
-        Install Java
-            apt-get update
-            apt-get install oracle-java7-installer
+                Install Java
+                        apt-get update
+                        apt-get install oracle-java7-installer
     
-        Update Alternatives
-            update-alternatives --config java
-            update-alternatives --config javac
+                Update Alternatives
+                        update-alternatives --config java
+                        update-alternatives --config javac
 
-6- Install Maven3
-    add-apt-repository ppa:natecarlson/maven3
-    apt-get update
-    apt-get install maven3
+        6- Install Maven3
+                add-apt-repository ppa:natecarlson/maven3
+                apt-get update
+                apt-get install maven3
     
-7- Install Git
-    apt-get install git-core
+        7- Install Git
+                apt-get install git-core
     
-8- Generate SSH key
-    ssh-keygen -t rsa -C "<email Id>"
+        8- Generate SSH key
+                ssh-keygen -t rsa -C "<email Id>"
   
